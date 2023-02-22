@@ -1,0 +1,3 @@
+console.log(prompt ('Geef een getal in tussen 1 en 5', '1-5'));
+
+/* WAARDE (CONTROLESTRUCTUREN) LEREN WE PAS VANAF DEEL 3 - DIT OM HET INPUTVELD TE CONTROLEREN OP INHOUD. */

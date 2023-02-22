@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 1 - Oefening 4 - Einde Academiejaar</title>
+    <link rel="stylesheet" href="oefening4.css">
+    <script defer src="oefening4.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <h1 id="header__title">sdjfksjf</h1>
+</header>
+
+<main>
+    <section id="formulier">
+    <h2 class="form__text">Schrijf je nu in op onze nieuwsbrief !</h2>
+    <form class="form" method="post" action="mailto:info@pxl.be" enctype="text/plain">
+        <ul class="form__list">
+            <li class="form__listitem" >
+                <label class="form__label" for="voornaam">Voornaam:</label>
+                <input class="form__input" type="text" id="voornaam" name="voornaam" required></li>
+            <li class="form__listitem">
+                <label class="form__label" for="achternaam">Achternaam:</label>
+                <input class="form__input" type="text" id="achternaam" name="achternaam" required>
+            </li>
+            <li class="form__listitem">
+                <label class="form__label" for="email">Mailadres:</label>
+                <input class="form__input" type="email" id="email" name="email" required>
+            </li>
+            <li class="form__listitem">
+                <label class="form__label" for="bevestig"></label>
+                <input class="form__submit" type='submit' id="bevestig" name="bevestig" value="Bevestig">
+            </li>
+        </ul>
+    </form>
+    </section>
+    <section class="timer-container" id="countdown">
+        <div class="timer-container__col">
+            <h2 id="timer" class="timer-container__row countdown_timer"></h2>
+        </div>
+    </section>
+    <section class="info-container">
+        <div class="info-container__col">
+            <div class="info-container__row">
+                <h1 id="name"></h1>
+            </div>
+            <div class="info-container__row">
+                <h2 class="countdown_clock">Countdown Clock</h2>
+            </div>
+            <div class="info-container__col">
+                <p class="countdown_quote">"Voor mij hoeft het niet, ik ken het allemaal al"</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+</body>
+</html>
+
+<!--
+ Maak een eenvoudige responsive landingspagina.
+ Op de pagina wordt afgeteld naar het einde van het academiejaar.
+ Plaats op de landingspagina minstens:
+
+--  een klein invulformulier met drie verplichte velden (naam, voornaam en e-mailadres) en een mailto-koppeling.
+Via dit formulier kunnen bezoekers zich inschrijven op de nieuwsbrief van PXL-DIGITAL.
+--  Een leeg <h1>-element.
+--  Een <h2>-element met het aantal dagen (vaste tekst) tot het einde van het academiejaar.
+--  Een <p>-element met een bekende quote van een lector Digitale Vormgeving.
+ -->
